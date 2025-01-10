@@ -1,5 +1,8 @@
 # Project_WoC_7.0_Fake_Review_Detection
 
+## Preprocessed Dataset Link : https://drive.google.com/file/d/1MDZTVdUgREkeqAqMcyk_MYizTSwaeGzd/view?usp=sharing
+(As the File was too big to upload on GitHub)
+
 ## Check Point : 1
 
 ### Task Breakdown
