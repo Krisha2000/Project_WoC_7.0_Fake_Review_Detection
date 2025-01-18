@@ -43,6 +43,20 @@ Saved each trained model for future use with the following filenames:
 #### 7. Test Predictions
 Performed test predictions using the saved models on sample data to validate their functionality.
 
+| Actual | Predicted by SVM |
+|--------|------------------|
+| 1      | 0                |
+| 0      | 1                |
+| 1      | 0                |
+| 1      | 0                |
+| 0      | 0                |
+| 0      | 1                |
+| 0      | 1                |
+| 1      | 0                |
+| 1      | 1                |
+| 0      | 1                |
+(For SVM)
+
 
 ## Conclusion
 Based on the evaluation metrics, the Support Vector Machine (SVM) performed the best with the highest F1 Score (0.8844), making it the most suitable model for detecting fake reviews in this task.
