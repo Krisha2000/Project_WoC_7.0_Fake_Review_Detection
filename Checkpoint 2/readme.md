@@ -1,5 +1,7 @@
 ## **Check Point: 2 - Model Training**
 
+**SVM model : https://drive.google.com/file/d/1Ag5Mu9cIZ6UvugAEaRq4qClc3Q_prL89/view?usp=sharing**
+
 ### **Tasks Completed**
 
 #### 1. Dataset Preparation
