@@ -50,8 +50,3 @@ bash
 
 ---
 
-## Future Improvements
-
-- Add pagination support.
-- Handle dynamic content with Selenium.
-- Extract additional metadata like review images.
