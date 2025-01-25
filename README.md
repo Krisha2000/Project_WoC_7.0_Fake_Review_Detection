@@ -35,8 +35,11 @@ Fake reviews have become a significant challenge in maintaining the authenticity
 
 ---
 
-## **Conclusion**  
+#### **Conclusion**  
 The SVM model demonstrated the best performance and reliability for detecting fake reviews. This project showcases the power of machine learning in addressing real-world challenges.  
+
+
+---
 
 ### **Checkpoint 3: Web Scraping Script for Review Collection**  
 - **Web Scraping Script:** Developed a Python script to scrape reviews from any product URL.  
