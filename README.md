@@ -37,3 +37,12 @@ Fake reviews have become a significant challenge in maintaining the authenticity
 
 ## **Conclusion**  
 The SVM model demonstrated the best performance and reliability for detecting fake reviews. This project showcases the power of machine learning in addressing real-world challenges.  
+
+### **Checkpoint 3: Web Scraping Script for Review Collection**  
+- **Web Scraping Script:** Developed a Python script to scrape reviews from any product URL.  
+- **Libraries Used:** The script uses `requests` to fetch web content, `BeautifulSoup` for HTML parsing, and `pandas` for data handling and storage.  
+- **Data Collection:** Extracted review details, including reviewer name, rating, review text, and review date.  
+- **Result Storage:** The script saves the extracted reviews in a CSV file (`Reviews.csv`).  
+- **Error Handling:** Added error handling for failed requests and issues with scraping.  
+- **Input Flexibility:** The script accepts any product URL and scrapes the corresponding reviews.
+
