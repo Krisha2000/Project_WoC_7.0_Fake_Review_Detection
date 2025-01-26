@@ -24,22 +24,7 @@ This Python script scrapes reviews from a given product URL, extracting reviewer
 
 ---
 
-## How to Run
 
-1. **Setup**: Install Python 3.x and required libraries.
-   
-bash
-   pip install requests beautifulsoup4 pandas
-
-2. **Run Script**: Save as scrape_reviews.py and execute:
-   
-bash
-   python scrape_reviews.py
-
-3. **Enter URL**: Provide the product URL when prompted.
-4. **View Results**: Open Reviews.csv in a spreadsheet editor.
-
----
 
 ## Notes
 
