@@ -35,12 +35,6 @@ Fake reviews have become a significant challenge in maintaining the authenticity
 
 ---
 
-#### **Conclusion**  
-The SVM model demonstrated the best performance and reliability for detecting fake reviews. This project showcases the power of machine learning in addressing real-world challenges.  
-
-
----
-
 ### **Checkpoint 3: Web Scraping Script for Review Collection**  
 - **Web Scraping Script:** Developed a Python script to scrape reviews from any product URL.  
 - **Libraries Used:** The script uses `requests` to fetch web content, `BeautifulSoup` for HTML parsing, and `pandas` for data handling and storage.  
@@ -49,3 +43,28 @@ The SVM model demonstrated the best performance and reliability for detecting fa
 - **Error Handling:** Added error handling for failed requests and issues with scraping.  
 - **Input Flexibility:** The script accepts any product URL and scrapes the corresponding reviews.
 
+---
+I have trained a Multi-Layer Perceptron (MLP) model for fake review detection. Below are its performance metrics:
+
+| **Model**               | **Accuracy** | **Precision** | **Recall** | **F1 Score** |  
+|--------------------------|--------------|---------------|------------|--------------|  
+| MLP                      | 0.8766       |0.88           | 0.88     |  0.88        |  
+
+The MLP model provides competitive results and adds another option for classification. There is only a minor difference between SVM and MLP for these metrics, making both models viable choices for fake review detection.
+
+---
+### **Checkpoint 4: Web Application for Fake Review Detection**  
+- **Language Filtering:** Implemented a filter to process only English-language reviews to ensure model compatibility.  
+- **Streamlit Web App:** Developed an interactive web application using `Streamlit`, allowing users to input product URLs and classify reviews.  
+- **Model Selection Feature:** Users can choose between `SVM` and `MLP` models for review classification.  
+- **Visualization:** Integrated `Plotly` to display a pie chart representing the percentage of real vs. fake reviews.  
+- **Result Display:** The app shows classified reviews with their corresponding labels for better transparency.  
+- **Project Structure:** Modularized the codebase into separate scripts for scraping (`scraping.py`), preprocessing (`preprocessing.py`), and model inference (`model.py`).  
+
+---
+
+**Future Enhancements:** 
+- Expand dataset to include multilingual reviews.  
+- Experiment with deep learning models for enhanced accuracy.  
+- Optimize the web scraper, which can scrape all reviews of that particular product.
+- Deploy web application.
