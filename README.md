@@ -56,7 +56,8 @@ The MLP model provides competitive results and adds another option for classific
 ### **Checkpoint 4: Web Application for Fake Review Detection**  
 
 **[Project_WoC_7.0_Fake_Review_Detection - Checkpoint 4](<https://github.com/Krisha2000/Project_WoC_7.0_Fake_Review_Detection_Chechpoint_4.git>)**
-- **Language Filtering:** Implemented a filter to process only English-language reviews to ensure model compatibility.  
+- **Language Filtering:** Implemented a filter to process only English-language reviews to ensure model compatibility.
+- **Review Preprocessing**: Enhanced text quality by handling emojis using `emoji` library and applying spelling correction with `TextBlob` before converting text into word vectors using Word2Vec from `gensim`.
 - **Streamlit Web App:** Developed an interactive web application using `Streamlit`, allowing users to input product URLs and classify reviews.  
 - **Model Selection Feature:** Users can choose between `SVM` and `MLP` models for review classification.  
 - **Visualization:** Integrated `Plotly` to display a pie chart representing the percentage of real vs. fake reviews.  
